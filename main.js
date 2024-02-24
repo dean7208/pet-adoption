@@ -18,7 +18,7 @@ async function petsArea() {
   );
   const petsData = await petsPromise.json();
   petsData.forEach(pet => {
-    console.log(pet.name);
+    console.log(pet.species);
   });
 }
 
