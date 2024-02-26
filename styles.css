@@ -186,11 +186,17 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.375rem;
   color: #9f9f9f;
+  cursor: pointer;
 }
 
 .pet-filter button:hover {
+  color: #7d7d7d;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
   text-decoration: underline;
-  color: blue;
+  color: #475aff;
 }
 
 .site-footer p {
