@@ -96,13 +96,14 @@
         <h2 class="page-section-title">Meet Our Friends</h2>
         <div class="pet-filter">
           <p>
-            Show me: <button class='active'>All Pets</button><button>Only Dogs</button
-            ><button>Only Cats</button>
+            Show me: <button class="active" data-filter="all">All Pets</button
+            ><button data-filter="dog">Only Dogs</button
+            ><button data-filter="cat">Only Cats</button>
           </p>
         </div>
         <div class="list-of-pets"></div>
 
-        <template id='pet-card-template'>
+        <template id="pet-card-template">
           <div class="pet-card">
             <div class="pet-card-text">
               <h3></h3>
@@ -110,16 +111,11 @@
               <p class="pet-age">2 years old</p>
             </div>
             <div class="pet-card-photo">
-              <img
-                src=""
-                alt=""
-              />
+              <img src="" alt="" />
             </div>
           </div>
-          <!-- end of pet-card -->
-        </div>
-      </template>
-
+        </template>
+      </div>
       <!-- end of page-section-inner -->
     </div>
     <!-- end of page-section -->
